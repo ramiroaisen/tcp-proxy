@@ -4,8 +4,8 @@ net.createServer(inc => {
     const out = net.connect(25);
     inc.pipe(out);
     out.pipe(inc);
-}).listen(2525);
+}).listen(25025);
 
-console.log("Net server proxying 2525 => 25")
+console.log("Net server proxying 25025 => 25")
 
 
