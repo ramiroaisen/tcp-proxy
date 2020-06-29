@@ -6,6 +6,6 @@ net.createServer(inc => {
     out.pipe(inc);
 }).listen(25025);
 
-console.log("Net server proxying 25025 => 25")
+console.log("Net server proxying 25025 => 2525")
 
 
